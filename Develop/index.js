@@ -12,12 +12,28 @@ const promptUser = () => {
     {
       type: "input",
       message: "What is your GitHub user name?",
-      name: "username"
+      name: "username",
+      validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log("Please enter your name!");
+          return false;
+        }
+      }
     },
     {
       type: "input",
       message: "What is your email address?",
-      name: "email"
+      name: "email",
+      validate: emailInput => {
+        if (emailInput) {
+          return true;
+        } else {
+          console.log("Please enter your Email!");
+          return false;
+        }
+      }
     },
     {
       type: "input",
@@ -37,7 +53,9 @@ const promptUser = () => {
         "MIT",
         "Unlicense",
         "Apache 2.0",
+        "Eclipse",
         "GNU v3",
+        "IBM",
         "BSD 3-Clause",
         "Mozilla Public License 2.0"
       ]
