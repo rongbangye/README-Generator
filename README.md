@@ -7,7 +7,7 @@
 Builded a command line application that quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
 
 ## Demo Video
-<img src="https://media.giphy.com/media/uAOVDiZF8NESgy4boK/giphy.gif" />
+https://youtu.be/q56ZjwhaufE
 
 
 ## Demo Command Line
